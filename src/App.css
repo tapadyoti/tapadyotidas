@@ -1,0 +1,18 @@
+*{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg{
+background: #000000;
+background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(52, 52, 52) 100%);
+}
+@keyframes upDown {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); } /* adjust -10px as you like */
+}
+
+.animate-up-down {
+  animation: upDown 2s ease-in-out infinite;
+}
