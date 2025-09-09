@@ -9,7 +9,7 @@ import ShareBtn from "../helper/ShareBtn";
 
 const Home = () => {
   return (
-    <div className="bg h-screen md:h-full text-white w-screen">
+    <div className="bg min-h-screen text-white w-screen">
       <nav className=" p-4 pl-4 text-2xl">
        <ShareBtn/>
       </nav>
