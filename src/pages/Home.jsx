@@ -16,7 +16,7 @@ const Home = () => {
 
       <section className="flex justify-center flex-col items-center mt-8">
         <img
-          src="/tapa.webp"
+          src="/tapa.jpg"
           alt="img"
           className="w-36 rounded-full"
         />
