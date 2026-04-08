@@ -21,11 +21,11 @@ const Home = () => {
           className="w-36 rounded-full"
         />
         <h2 className="font-semibold text-xl pt-5">Tapadyoti Das</h2>
-        <p className="text-sm pt-1">FrontEnd-Dev | Guitarist | Music Producer</p>
+        <p className="text-sm pt-1">MIXING ENGINEER & GUITARIST</p>
       </section>
 
       <section className="flex items-center justify-center mt-12">
-        <a href="https://forms.gle/aPPGtfwHnZAe8HY67">
+        <a href="https://instagram.com/tapadyotidas" target="_blank">
           <button className="bg-white text-black border-xl border rounded-3xl p-3 w-56">
             Online Guitar Lessons
           </button>
@@ -100,9 +100,7 @@ const Home = () => {
         <source src="/mix2.mp3" type="audio/mpeg" />
       </audio>
 
-      <audio controls className="w-full rounded-lg">
-        <source src="/mix3.mp3" type="audio/mpeg" />
-      </audio>
+    
 
     </div>
   </div>
