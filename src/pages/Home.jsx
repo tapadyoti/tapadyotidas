@@ -87,7 +87,7 @@ const Home = () => {
   </a>
 
   {/* Works Section */}
-  <div className="mt-10 w-full max-w-lg">
+  <div className="mt-10 w-full max-w-lg pb-3">
     <h3 className="text-lg font-semibold mb-4">My Works</h3>
 
     <div className="flex flex-col gap-4">
@@ -98,6 +98,9 @@ const Home = () => {
 
       <audio controls className="w-full rounded-lg">
         <source src="/mix2.mp3" type="audio/mpeg" />
+      </audio>
+       <audio controls className="w-full rounded-lg p-2">
+        <source src="/mix3.mp3" type="audio/mpeg" />
       </audio>
 
     
