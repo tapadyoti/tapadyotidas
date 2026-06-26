@@ -74,8 +74,8 @@ const Home = () => {
 
   {/* Price */}
   <div className="bg-white text-black rounded-2xl px-6 py-4 mb-6 shadow-lg">
-    <p className="text-sm line-through text-gray-500">₹1499</p>
-    <h3 className="text-2xl font-bold">₹899</h3>
+    <p className="text-sm line-through text-gray-500">₹4999</p>
+    <h3 className="text-2xl font-bold">₹1999</h3>
     <p className="text-xs mt-1">Limited Offer</p>
   </div>
 
@@ -99,7 +99,7 @@ const Home = () => {
       <audio controls className="w-full rounded-lg">
         <source src="/mix2.mp3" type="audio/mpeg" />
       </audio>
-       <audio controls className="w-full rounded-lg p-2">
+       <audio controls className="w-full rounded-lg">
         <source src="/mix3.mp3" type="audio/mpeg" />
       </audio>
 
